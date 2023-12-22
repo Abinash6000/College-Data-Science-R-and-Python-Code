@@ -3,7 +3,7 @@
 import pandas as pd
 from scipy.stats import f_oneway
 
-data = pd.read_excel("data3.xlsx")
+data = pd.read_excel(r"C:\Users\admin\OneDrive\Desktop\VIT\Sem 4\Foundataion of Data Science\R and Python Codes\data3.xlsx")
 a = data["buff"]
 b = data["pitt"]
 c = data["detr"]

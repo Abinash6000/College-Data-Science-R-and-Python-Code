@@ -8,6 +8,7 @@ def calculate_statistics(female, male):
 
     return t_statistic, p_value
 
+
 def read_excel(file_path):
     # Read excel file
     df = pd.read_excel(file_path, sheet_name='Sheet2')

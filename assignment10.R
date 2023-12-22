@@ -1,0 +1,7 @@
+library("xlsx")
+Depression_Data = read.xlsx("C:/Users/admin/OneDrive/Desktop/VIT/Sem 4/Foundataion of Data Science/R and Python Codes/Depression_Data.xlsx", sheetName = "Sheet1")
+names(Depression_Data)
+attach(Depression_Data)
+# boxplot(PD~Mothers_Education, col='red')
+# boxplot(GD~Mothers_Education, col='blue')
+boxplot(SC~Mothers_Education, col='green')

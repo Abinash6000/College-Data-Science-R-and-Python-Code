@@ -2,7 +2,7 @@ library("xlsx")
 library("e1071")
 
 # Read excel file
-df <- read.xlsx("C:/Users/admin/Downloads/Corn_bunting_bird.xlsx", sheetName = "Sheet2")
+df <- read.xlsx("C:/Users/admin/OneDrive/Desktop/VIT/Sem 4/Foundataion of Data Science/R and Python Codes/Corn_bunting_bird.xlsx", sheetName = "Sheet2")
 
 
 # Data is in a column named 'Data'

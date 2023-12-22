@@ -1,0 +1,6 @@
+library(caret)
+data = c(8,10, 15, 20)
+process <- preProcess(as.data.frame(data), method=c("range"))
+Min_Max <- predict(process, as.data.frame(data))
+print(Min_Max)
+scale(data, center = TRUE, scale = TRUE)
